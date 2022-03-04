@@ -9,7 +9,13 @@
     "features": [
         {
             "type": "Feature",
-            "geometry": { "type": "Point", "coordinates": [ -52.735340, 47.573895 ] },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -52.735340,
+                    47.573895
+                ]
+            },
             "properties": {
                 "name": "Memorial University of Newfoundland",
                 "type": "Organization",
@@ -19,7 +25,13 @@
         },
         {
             "type": "Feature",
-            "geometry": { "type": "Point", "coordinates": [ 130, 11.35 ] },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    130,
+                    11.35
+                ]
+            },
             "properties": {
                 "name": "Mariana Trench",
                 "type": "Trench",
@@ -29,7 +41,13 @@
         },
         {
             "type": "Feature",
-            "geometry": { "type": "Point", "coordinates": [ -77.0244, 38.9064 ] },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.0244,
+                    38.9064
+                ]
+            },
             "properties": {
                 "name": "Development Seed",
                 "type": "Organization",
@@ -39,13 +57,64 @@
         },
         {
             "type": "Feature",
-            "geometry": { "type": "Point", "coordinates": [ -120.9068551, 35.3780764 ] },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -120.9068551,
+                    35.3780764
+                ]
+            },
             "properties": {
                 "name": "Morro Rock",
                 "type": "Rock",
                 "location": "Morro Bay, California, USA",
                 "description": "An ancient volcanic plug formed by magma, this 581-foot rock is known as a harbor entrance landmark (also a place which Chris visited often when he was young)."
             }
-        }        
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Gulf Stream",
+                "type": "Current",
+                "description": "Strong western boundary current in the Atlantic Ocean"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -69.78515625,
+                        23.079731762449878
+                    ],
+                    [
+                        -73.65234375,
+                        29.22889003019423
+                    ],
+                    [
+                        -71.71875,
+                        34.59704151614417
+                    ],
+                    [
+                        -66.4453125,
+                        39.095962936305476
+                    ],
+                    [
+                        -59.4140625,
+                        42.94033923363181
+                    ],
+                    [
+                        -54.84375,
+                        43.96119063892024
+                    ],
+                    [
+                        -51.67968749999999,
+                        45.460130637921004
+                    ],
+                    [
+                        -48.8671875,
+                        47.754097979680026
+                    ]
+                ]
+            }
+        }
     ]
 }
