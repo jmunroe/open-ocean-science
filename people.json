@@ -13,5 +13,10 @@
         "name": "James Munroe",
         "organization": "Memorial University of Newfoundland",
         "github": "jmunroe"
+    },
+    {
+        "name": "OSM Participant",
+        "organization": "AGU / ASLO / ...",
+        "github": "osm2022"
     }
 ]
